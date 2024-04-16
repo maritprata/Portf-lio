@@ -131,6 +131,11 @@ ul li a:hover {
   border-radius: 10px;
   transition: 0.3s;
   cursor: pointer;
+  text-decoration: none; 
+}
+
+.contrate, .portfolio {
+  text-decoration: none;
 }
 
 .contrate {

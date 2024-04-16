@@ -7,71 +7,76 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <div class="nav__content">
-            <div class="logo"><a href="#">Mariana</a></div>
-            <input type="checkbox" name="check" id="check" />
-            <label for="check" class="checkbox"></label>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </div>
-    </nav>
-    <section id="home">
-        <div class="section__container">
-            <div class="content">
-                <h1 class="titulo">
-                    Olá! Me chamo <span> Mariana<br /></span>
-                </h1>
-                <p class="descricao">
-                    Seja bem-Vindo(a) ao meu Portfólio! Tenho 16 anos de idade e estudo Desenvolvimento Web no Instituto da oportunidade Social (IOS)
-                </p>
-                <div class="action_botao">
-                    <button class="contrate">Contrate-me</button>
-                    <button class="portfolio">Portfólio</button>
+    <header>
+        <nav>
+            <div class="nav__content">
+                <div class="logo"><a href="#">Mariana</a></div>
+                <input type="checkbox" name="check" id="check" />
+                <label for="check" class="checkbox"></label>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <div class="section__container">
+                <div class="content">
+                    <h1 class="titulo">
+                        Olá! Me chamo <span>Mariana</span>
+                    </h1>
+                    <p class="descricao">
+                        Seja bem-vindo(a) ao meu Portfólio! Tenho 16 anos de idade e estudo Desenvolvimento Web no Instituto da Oportunidade Social (IOS).
+                    </p>
+                    <div class="action_botao">
+                        <button class="contrate"><a href="#contato">Contrate-me</a></button>
+                        <button class="portfolio">Portfólio</button>
+                    </div>
+                </div>
+                <div class="imagem">
+                    <img src="./img/img-pessoal.jfif" alt="Perfil">
                 </div>
             </div>
-            <div class="imagem">
-                <img src="./img/img-pessoal.jfif" alt="Perfil" />
-            </div>
-        </div>
-    </section>
-    <section id="projetos">
-        <div class="section__container">
-            <div class="content">
-                <h1 class="titulo">
-                    <span>Projetos<br/></span>
-                </h1>
-                <p class="descricao">
-                    Página web - Travel Adventure
-                </p>
-                <div class="action_botao">
-                    <button><a href="https://github.com/maritprata/TravelAdventure">Clique para ver mais!</a></button>
+        </section>
+
+        <section id="projetos" class="section">
+            <div class="section__container">
+                <div class="content">
+                    <h1 class="titulo">
+                        <span>Projetos</span>
+                    </h1>
+                    <p class="descricao">
+                        Página web - Travel Adventure
+                    </p>
+                    <div class="action_botao">
+                        <button><a href="https://github.com/maritprata/TravelAdventure">Clique para ver mais!</a></button>
+                    </div>
+                </div>
+                <div class="img2">
+                    <img src="./img/TravelAdventure.png" alt="Travel-Adventure">
                 </div>
             </div>
-            <div class="img2">
-                <img src="./img/TravelAdventure.png" alt="Travel-Adventure" />
-            </div>
-        </div>
-    </section>
-    <section id="contato">
-        <div class="section__container">
-            <div class="content">
-                <h1 class="titulo">
-                    <span>Contato<br/></span>
-                </h1>
-                <p class="descricao">
-                    Entre em contato:
-                </p>
-                <div class="action_botao">
-                    <button><a href="mailto:mariana.prata1207@gmail.com">mariana.prata1207@gmail.com</a></button>
+        </section>
+
+        <section id="contato" class="section">
+            <div class="section__container">
+                <div class="content">
+                    <h1 class="titulo">
+                        <span>Contato</span>
+                    </h1>
+                    <p class="descricao">
+                        Entre em contato:
+                    </p>
+                    <div class="action_botao">
+                        <button><a href="mailto:mariana.prata1207@gmail.com">mariana.prata1207@gmail.com</a></button>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 </body>
 </html>
-
-
