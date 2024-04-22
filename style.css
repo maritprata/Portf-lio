@@ -236,3 +236,45 @@ ul li a:hover {
 .action_botao a:visited:active {
   color: inherit;
 }
+
+.contato_container {
+  width: 100%;
+  background-color: #9333ea;
+}
+
+.contato_texto {
+  margin-bottom: 200px;
+}
+
+.botao_email_container {
+  display: flex;
+  justify-content: center;
+}
+
+.botao_email {
+  display: flex;
+  border: 2px solid var(--primary-color) ;
+  border-radius: 15px;
+  padding: 1rem 2rem;
+
+  cursor: pointer;
+}
+
+.botao_email:hover {
+  background-color: var(--secondary-color);
+  transition: 1.5s;
+}
+
+#contato {
+  display: flex;
+}
+
+.section__container {
+  display: flex;
+}
+
+.contato-img {
+  width: 50%;
+  margin-left: 10px; 
+}
+

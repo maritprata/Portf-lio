@@ -1,68 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="./favicon_io/favicon-16x16.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
     <header>
-        <nav>
-            <div class="nav__content">
-                <div class="logo"><a href="/">Mariana</a></div>
-                <input type="checkbox" name="check" id="check" />
-                <label for="check" class="checkbox"></label>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </div>
-        </nav>
+      <nav>
+        <div class="nav__content">
+          <div class="logo"><a href="/">Mariana</a></div>
+          <input type="checkbox" name="check" id="check" />
+          <label for="check" class="checkbox"></label>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <main>
-        <section id="home">
-            <div class="section__container">
-                <div class="content">
-                    <h1>Olá! Me chamo <span>Mariana</span></h1>
-                    <pSsou uma pessoa comunicativa, esforçada e tenho habilidade de exercer liderança.
-                        Estou imersa no mundo de Desenvolvimento Web, aprimorando minhas habilidades no Instituto da Oportunidade Social (IOS). Aqui, você encontrará alguns projetos que refletem minha paixão pela tecnologia e minha busca constante pelo crescimento pessoal e profissional. </p>
-                    <div class="action_botao">
-                        <button><a href="#contato">Contrate-me</a></button>
-                        <button><a href="#projetos">Portfólio</a></button>
-                    </div>
-                </div>
+      <section id="home">
+        <div class="section__container">
+          <div class="content">
+            <h1>Olá! Me chamo <span>Mariana</span></h1>
+            <p>
+              Sou uma pessoa comunicativa, esforçada e tenho habilidade de
+              exercer liderança. Estou imersa no mundo de Desenvolvimento Web,
+              aprimorando minhas habilidades no Instituto da Oportunidade Social
+              (IOS). Aqui, você encontrará alguns projetos que refletem minha
+              paixão pela tecnologia e minha busca constante pelo crescimento
+              pessoal e profissional.
+            </p>
+            <div class="home-img">
+              <img src="./img/undraw_web_devices_re_m8sc.svg" 
+              alt="foto-menina1">
             </div>
-        </section>
+            <div class="action_botao">
+              <button><a href="#contato">Contrate-me</a></button>
+              <button><a href="#projetos">Portfólio</a></button>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <section id="projetos">
-            <div class="section__container">
-                <div class="content">
-                    <h1><span>Projetos</span></h1>
-                    <p>Página web - Travel Adventure</p>
-                    <div class="action_botao">
-                        <button><a href="https://github.com/maritprata/TravelAdventure">Clique para ver mais!</a></button>
-                    </div>
-                </div>
-                <div class="img2">
-                    <img src="./img/TravelAdventure.png" alt="Screenshot do projeto Travel Adventure">
-                </div>
+      <section id="projetos">
+        <div class="section__container">
+          <div class="content">
+            <h1><span>Projetos</span></h1>
+            <p>Página web - Travel Adventure</p>
+            <div class="action_botao">
+              <button>
+                <a
+                  href="https://maritprata.github.io/TravelAdventure/"
+                  target="_blank"
+                  >Clique para ver mais!</a
+                >
+              </button>
             </div>
-        </section>
+          </div>
+          <div class="img2">
+            <img
+              src="./img/TravelAdventure.png"
+              alt="Screenshot do projeto Travel Adventure"
+            />
+          </div>
+        </div>
+      </section>
 
-        <section id="contato">
-            <div class="section__container">
-                <div class="content">
-                    <h1><span>Contato</span></h1>
-                    <p>Entre em contato:</p>
-                    <div class="action_botao">
-                        <button><a href="mailto:mariana.prata1207@gmail.com">Enviar e-mail</a></button>
-                    </div>
-                </div>
+      <section id="contato">
+        <div class="section__container">
+          <div class="contato_container">
+            <div class="contato_texto">
+              <h1>Contato</h1>
+              <p>Entre em contato:</p>
             </div>
-        </section>
+            <div class="botao_email_container">
+              <a href="mailto:mariana.prata1207@gmail.com">
+                <button class="botao_email">Enviar e-mail</button>
+              </a>
+            </div>
+          </div>
+          <img
+            class="contato-img"
+            src="./img/img-contato.svg"
+            alt="icone da menina"
+          />
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>
